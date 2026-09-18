@@ -19,3 +19,9 @@ variable "environment" {
   type        = string
   default     = "laboratorio"
 }
+
+variable "name" {
+  description = "Nombre de la instancia EC2"
+  type        = string
+  default     = "ec2-instance"
+}
